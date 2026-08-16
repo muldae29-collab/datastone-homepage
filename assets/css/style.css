@@ -309,13 +309,90 @@ li { margin-bottom: var(--sp-2); }
   border-radius: 999px; font-size: 13.5px; font-weight: 600; color: var(--brand-bright);
 }
 
-/* 하위 페이지용 얕은 헤더 */
+/* ---------- 하위 페이지 헤더 ----------
+   바탕은 전부 같은 네이비지만, 로고 심볼을 배경 무늬로 깔되 페이지마다
+   크기·위치·반복을 달리해 인상이 갈리게 했다. 무늬는 하나(pattern-symbol.svg)뿐이라
+   요청은 한 번만 나가고, 페이지마다 CSS 몇 줄로 갈린다.
+
+   🔴 진하기를 올리지 말 것. 지금 값(0.05~0.07)은 "있는 줄 모르고 보다가
+      알아채는" 수준으로 맞춘 것이다. 이보다 진해지면 제목 가독성을 깎아먹는다.
+   본문은 ::after 위에 오도록 .container 에 z-index 를 준다. */
 .page-hero {
+  position: relative; overflow: hidden;
   background: var(--navy); color: #fff;
   padding: var(--sp-8) 0;
 }
+.page-hero > .container { position: relative; z-index: 1; }
 .page-hero h1 { color: #fff; }
 .page-hero p { margin: var(--sp-4) 0 0; color: rgba(255,255,255,.78); max-width: 46em; }
+
+.page-hero::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image: url("../img/pattern-symbol.svg");
+  background-repeat: no-repeat;
+  /* 글이 왼쪽에 있으므로 왼쪽은 비우고 오른쪽으로 갈수록 무늬가 살아나게 한다 */
+  -webkit-mask-image: linear-gradient(95deg, transparent 22%, #000 62%);
+          mask-image: linear-gradient(95deg, transparent 22%, #000 62%);
+}
+
+/* ⚠️ background-size 의 % 는 히어로 높이(약 300px) 기준이다.
+   150% 를 넘기면 심볼이 화면 밖으로 잘려 "로고"가 아니라 사각형 몇 개로 보인다.
+   확대가 의도인 solutions 만 예외다. */
+
+/* 회사소개 — 심볼 하나가 오른쪽에 온전히 서 있다. 회사가 쌓여온 모양 */
+.page-hero--about::after {
+  background-size: auto 88%;
+  background-position: 88% 50%;
+  opacity: .07;
+}
+
+/* 사업영역 — 여러 영역을 다루므로 심볼을 가로로 늘어놓는다.
+   가로로 반복하는 변형은 글자 뒤까지 무늬가 깔리므로 마스크를 더 오른쪽으로 민다 */
+.page-hero--business::after {
+  background-size: auto 52%;
+  background-position: 100% 50%;
+  background-repeat: space;
+  -webkit-mask-image: linear-gradient(95deg, transparent 40%, #000 80%);
+          mask-image: linear-gradient(95deg, transparent 40%, #000 80%);
+  opacity: .055;
+}
+
+/* 기술역량 — 여기만 일부러 크게 확대한다. 픽셀 몇 칸만 보이는 "안을 들여다보는" 인상 */
+.page-hero--solutions::after {
+  background-size: auto 420%;
+  background-position: 76% 38%;
+  opacity: .05;
+}
+
+/* 수행실적 — 바닥에 낮게 깔아 연대기처럼 늘어놓는다.
+   가로 반복이라 business 와 같은 이유로 마스크를 오른쪽으로 민다 */
+.page-hero--portfolio::after {
+  background-size: auto 46%;
+  background-position: 0 118%;
+  background-repeat: repeat-x;
+  -webkit-mask-image: linear-gradient(95deg, transparent 40%, #000 80%);
+          mask-image: linear-gradient(95deg, transparent 40%, #000 80%);
+  opacity: .065;
+}
+
+/* 문의하기 — 심볼 위쪽(흩어진 픽셀)만 보인다. 이제 시작한다는 인상 */
+.page-hero--contact::after {
+  background-size: auto 145%;
+  background-position: 88% 0;
+  opacity: .075;
+}
+
+/* 공지사항 — 심볼 아래쪽(쌓인 층)만 보인다. 소식이 내려앉는 인상 */
+.page-hero--notice::after {
+  background-size: auto 145%;
+  background-position: 88% 100%;
+  opacity: .065;
+}
+
+/* 좁은 화면에서는 글이 폭을 다 쓰므로 무늬를 더 죽인다 */
+@media (max-width: 620px) {
+  .page-hero::after { opacity: .035 !important; }
+}
 
 /* 빵부스러기 */
 .breadcrumb { font-size: 13.5px; color: rgba(255,255,255,.6); margin-bottom: var(--sp-4); }

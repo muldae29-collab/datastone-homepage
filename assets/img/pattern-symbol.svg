@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.754 29.918">
+  <!-- 히어로 배경 무늬 전용. 공식 심볼과 도형이 같고 색만 단색(흰색)이다.
+       진하기는 style.css 의 .page-hero::after opacity 로 조절한다.
+       로고를 고치면 logo-symbol.svg 와 함께 이 파일도 다시 뽑을 것. -->
+  <g fill="#ffffff">
+    <rect x="16.746" y="27.91" width="2.008" height="2.008"/>
+    <rect x="13.957" y="27.91" width="2.008" height="2.008"/>
+    <rect x="11.164" y="27.91" width="2.008" height="2.008"/>
+    <rect x="8.375" y="27.91" width="2.008" height="2.008"/>
+    <rect x="5.582" y="27.91" width="2.012" height="2.008"/>
+    <rect x="2.793" y="27.91" width="2.008" height="2.008"/>
+    <rect x="-0" y="27.91" width="2.012" height="2.008"/>
+    <rect x="16.746" y="25.121" width="2.008" height="2.008"/>
+    <rect x="13.957" y="25.121" width="2.008" height="2.008"/>
+    <rect x="11.164" y="25.121" width="2.008" height="2.008"/>
+    <rect x="8.375" y="25.121" width="2.008" height="2.008"/>
+    <rect x="5.582" y="25.121" width="2.012" height="2.008"/>
+    <rect x="2.793" y="25.117" width="2.008" height="2.012"/>
+    <rect x="-0" y="25.121" width="2.012" height="2.008"/>
+    <rect x="16.746" y="22.328" width="2.008" height="2.008"/>
+    <rect x="13.957" y="22.328" width="2.008" height="2.008"/>
+    <rect x="11.164" y="22.328" width="2.008" height="2.008"/>
+    <rect x="8.375" y="22.328" width="2.008" height="2.008"/>
+    <rect x="5.582" y="22.328" width="2.012" height="2.008"/>
+    <rect x="2.793" y="22.328" width="2.008" height="2.008"/>
+    <rect x="-0" y="22.328" width="2.012" height="2.008"/>
+    <rect x="16.746" y="19.535" width="2.008" height="2.012"/>
+    <rect x="13.957" y="19.535" width="2.008" height="2.012"/>
+    <rect x="8.375" y="19.535" width="2.008" height="2.012"/>
+    <rect x="2.793" y="19.535" width="2.008" height="2.012"/>
+    <rect x="-0" y="19.535" width="2.012" height="2.012"/>
+    <rect x="16.746" y="16.746" width="2.008" height="2.008"/>
+    <rect x="11.164" y="16.746" width="2.008" height="2.008"/>
+    <rect x="8.375" y="16.746" width="2.008" height="2.008"/>
+    <rect x="5.582" y="16.746" width="2.012" height="2.008"/>
+    <rect x="2.793" y="16.746" width="2.008" height="2.008"/>
+    <rect x="16.746" y="13.953" width="2.008" height="2.012"/>
+    <rect x="11.164" y="13.953" width="2.008" height="2.012"/>
+    <rect x="8.375" y="13.953" width="2.008" height="2.012"/>
+    <rect x="2.793" y="13.953" width="2.008" height="2.012"/>
+    <rect x="-0" y="13.953" width="2.012" height="2.012"/>
+    <rect x="13.953" y="11.164" width="2.012" height="2.008"/>
+    <rect x="8.375" y="11.164" width="2.008" height="2.008"/>
+    <rect x="5.582" y="11.164" width="2.012" height="2.008"/>
+    <rect x="-0" y="11.164" width="2.012" height="2.008"/>
+    <rect x="16.746" y="8.375" width="2.008" height="2.008"/>
+    <rect x="11.164" y="8.371" width="2.008" height="2.012"/>
+    <rect x="5.582" y="8.375" width="2.012" height="2.008"/>
+    <rect x="2.793" y="8.375" width="2.008" height="2.008"/>
+    <rect x="13.957" y="5.582" width="2.008" height="2.008"/>
+    <rect x="8.375" y="5.582" width="2.008" height="2.008"/>
+    <rect x="5.582" y="5.582" width="2.012" height="2.008"/>
+    <rect x="-0" y="5.582" width="2.012" height="2.008"/>
+    <rect x="5.582" y="2.793" width="2.012" height="2.008"/>
+    <rect x="2.793" y="2.793" width="2.008" height="2.008"/>
+    <rect x="16.746" y="0" width="2.008" height="2.008"/>
+    <rect x="11.164" y="0" width="2.008" height="2.008"/>
+    <rect x="2.793" y="0" width="2.008" height="2.008"/>
+  </g>
+</svg>

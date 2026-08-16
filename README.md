@@ -30,6 +30,7 @@ assets/img/logo.svg          공식 로고 — 컬러 가로형 (밝은 배경)
 assets/img/logo-light.svg    공식 로고 — 흰색 반전형 (어두운 배경)
 assets/img/logo-symbol.svg   심볼만 — 좁은 자리용 (현재 미사용)
 assets/img/favicon.svg       탭 아이콘
+assets/img/pattern-symbol.svg 하위 페이지 헤더 배경 무늬 (심볼 단색판)
 
 notices.json      공지 데이터 — 공지 추가는 이 파일만 고친다
 
