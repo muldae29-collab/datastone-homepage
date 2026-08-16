@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- 탭 아이콘. 공식 로고의 심볼만 잘라 네이비 바탕 위에 흰색으로 올렸다.
+       워드마크를 넣으면 16px에서 뭉개지므로 심볼만 쓴다.
+       도형은 logo-symbol.svg 와 같다 — 한쪽을 고치면 다른 쪽도 고칠 것. -->
+  <rect width="48" height="48" rx="10" fill="#031f35"/>
+  <g fill="#ffffff" transform="translate(14.623 9.041)">
+    <rect x="16.746" y="27.91" width="2.008" height="2.008"/>
+    <rect x="13.957" y="27.91" width="2.008" height="2.008"/>
+    <rect x="11.164" y="27.91" width="2.008" height="2.008"/>
+    <rect x="8.375" y="27.91" width="2.008" height="2.008"/>
+    <rect x="5.582" y="27.91" width="2.012" height="2.008"/>
+    <rect x="2.793" y="27.91" width="2.008" height="2.008"/>
+    <rect x="-0" y="27.91" width="2.012" height="2.008"/>
+    <rect x="16.746" y="25.121" width="2.008" height="2.008"/>
+    <rect x="13.957" y="25.121" width="2.008" height="2.008"/>
+    <rect x="11.164" y="25.121" width="2.008" height="2.008"/>
+    <rect x="8.375" y="25.121" width="2.008" height="2.008"/>
+    <rect x="5.582" y="25.121" width="2.012" height="2.008"/>
+    <rect x="2.793" y="25.117" width="2.008" height="2.012"/>
+    <rect x="-0" y="25.121" width="2.012" height="2.008"/>
+    <rect x="16.746" y="22.328" width="2.008" height="2.008"/>
+    <rect x="13.957" y="22.328" width="2.008" height="2.008"/>
+    <rect x="11.164" y="22.328" width="2.008" height="2.008"/>
+    <rect x="8.375" y="22.328" width="2.008" height="2.008"/>
+    <rect x="5.582" y="22.328" width="2.012" height="2.008"/>
+    <rect x="2.793" y="22.328" width="2.008" height="2.008"/>
+    <rect x="-0" y="22.328" width="2.012" height="2.008"/>
+    <rect x="16.746" y="19.535" width="2.008" height="2.012"/>
+    <rect x="13.957" y="19.535" width="2.008" height="2.012"/>
+    <rect x="8.375" y="19.535" width="2.008" height="2.012"/>
+    <rect x="2.793" y="19.535" width="2.008" height="2.012"/>
+    <rect x="-0" y="19.535" width="2.012" height="2.012"/>
+    <rect x="16.746" y="16.746" width="2.008" height="2.008"/>
+    <rect x="11.164" y="16.746" width="2.008" height="2.008"/>
+    <rect x="8.375" y="16.746" width="2.008" height="2.008"/>
+    <rect x="5.582" y="16.746" width="2.012" height="2.008"/>
+    <rect x="2.793" y="16.746" width="2.008" height="2.008"/>
+    <rect x="16.746" y="13.953" width="2.008" height="2.012"/>
+    <rect x="11.164" y="13.953" width="2.008" height="2.012"/>
+    <rect x="8.375" y="13.953" width="2.008" height="2.012"/>
+    <rect x="2.793" y="13.953" width="2.008" height="2.012"/>
+    <rect x="-0" y="13.953" width="2.012" height="2.012"/>
+    <rect x="13.953" y="11.164" width="2.012" height="2.008"/>
+    <rect x="8.375" y="11.164" width="2.008" height="2.008"/>
+    <rect x="5.582" y="11.164" width="2.012" height="2.008"/>
+    <rect x="-0" y="11.164" width="2.012" height="2.008"/>
+    <rect x="16.746" y="8.375" width="2.008" height="2.008"/>
+    <rect x="11.164" y="8.371" width="2.008" height="2.012"/>
+    <rect x="5.582" y="8.375" width="2.012" height="2.008"/>
+    <rect x="2.793" y="8.375" width="2.008" height="2.008"/>
+    <rect x="13.957" y="5.582" width="2.008" height="2.008"/>
+    <rect x="8.375" y="5.582" width="2.008" height="2.008"/>
+    <rect x="5.582" y="5.582" width="2.012" height="2.008"/>
+    <rect x="-0" y="5.582" width="2.012" height="2.008"/>
+    <rect x="5.582" y="2.793" width="2.012" height="2.008"/>
+    <rect x="2.793" y="2.793" width="2.008" height="2.008"/>
+    <rect x="16.746" y="0" width="2.008" height="2.008"/>
+    <rect x="11.164" y="0" width="2.008" height="2.008"/>
+    <rect x="2.793" y="0" width="2.008" height="2.008"/>
+  </g>
+</svg>
